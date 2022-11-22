@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiep online</title>
+    <style>
+        /* vietnamese */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLviuEViw.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLuiuEViw.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLviuEViw.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLuiuEViw.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLviuEViw.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLuiuEViw.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLviuEViw.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLuiuEViw.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Dancing Script';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Emilys Candy';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/emilyscandy/v13/2EbgL-1mD1Rnb0OGKudbk0yJptZqb84.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Emilys Candy';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/emilyscandy/v13/2EbgL-1mD1Rnb0OGKudbk0yJqNZq.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'HP001_Kieu2_5H';
+            src: url(./css/HP001_Kieu2_5H.TTF);
+        }
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- <div class="form">
+        <div class="group">
+            <label for="">Tên khách mời</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="group">
+            <label for="">Thời gian</label>
+            <input type="text" name="time" id="time">
+        </div>
+        <div class="group">
+            <label for="">Nhà</label>
+            <select name="address" id="address">
+                <option value="male">Nhà trai</option>
+                <option value="female">Nhà Gái</option>
+            </select>
+        </div>
+
+        <button class="btn" id="btn-create">Tạo thiệp</button>
+    </div> -->
+    <div class="main" id="my-node">
+        <div class="box-img">
+            <div class="left">
+                <img class="bg" src="./imgs/1.jpg" alt="">
+                <div class="box_left">
+        
+                    <h3 class="h31">Phương Nam & Thanh Thảo</h3>
+                    <p class="p11">Trân trọng kính mời</p>
+                    <p class="p22" id="name_append">Bạn</p>
+                    <p class="p3">Tới dự bữa tiệc thân mật <br>chung vui cùng gia đình chúng tôi</p>
+        
+                    <p class="p3">13.11.2022</p>
+                </div>
+            </div>
+            <div class="right">
+                <img class="bg" src="./imgs/2.jpg" alt="">
+                <div class="box_right">
+                    <p class="p1">Lễ thành hôn</p>
+                    <hr style="margin: 20px auto;">
+                    <p class="p4">vào lúc: <span id="time_append">10 giờ 00</span> <br> <strong>chủ nhật</strong></p>
+                    <p class="p5"><span>13</span></p>
+                    <p class="p6">tháng 11 năm 2022</p>
+                    <p class="p7"><i>(Tức ngày 20 tháng 10 năm nhâm dần âm lịch)</i></p>
+                    <p class="p8">Hôn lễ được cử hành tại tư gia</p>
+                    <p class="p9" id="address_append">Thôn nội, xã Yên Bình, huyện Vĩnh Tường, <br> tỉnh Vĩnh Phúc</p>
+                    <hr>
+                    <p class="p10">Rất hân hạnh được đón tiếp!</p>
+        
+                    <div class="b1">
+                        <p>Nhà trai</p>
+                        <p>Ông: <span>Trần Văn Khánh</span></p>
+                        <p>Bà: <span>Nguyễn Thị Hoa</span></p>
+                    </div>
+                    <div class="b1">
+                        <p>Nhà gái</p>
+                        <p>Ông: <span>Bùi Văn Quyền</span></p>
+                        <p>Bà: <span>Phùng Thị Kính</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script  src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script> -->
+    <script src="./thiep/js/dom-to-image.js"></script>
+    <script>
+        function toSlug(str) {
+            // Chuyển hết sang chữ thường
+            str = str.toLowerCase();
+
+            // xóa dấu
+            str = str
+                .normalize('NFD') // chuyển chuỗi sang unicode tổ hợp
+                .replace(/[\u0300-\u036f]/g, ''); // xóa các ký tự dấu sau khi tách tổ hợp
+
+            // Thay ký tự đĐ
+            str = str.replace(/[đĐ]/g, 'd');
+
+            // Xóa ký tự đặc biệt
+            str = str.replace(/([^0-9a-z-\s])/g, '');
+
+            // Xóa khoảng trắng thay bằng ký tự -
+            str = str.replace(/(\s+)/g, '-');
+
+            // Xóa ký tự - liên tiếp
+            str = str.replace(/-+/g, '-');
+
+            // xóa phần dư - ở đầu & cuối
+            str = str.replace(/^-+|-+$/g, '');
+
+            // return
+            return str;
+        }
+        document.getElementById('btn-create').addEventListener("click", function () {
+            let name = document.getElementById('name').value;
+            let address = document.getElementById('address').value;
+            let time = document.getElementById('time').value;
+            if (address === 'female') {
+                document.getElementById('address_append').innerHTML = "Thôn đình, xã Yên Bình, huyện Vĩnh Tường, <br> tỉnh Vĩnh Phúc";
+            }
+            if (time === '') {
+                document.getElementById('time_append').innerHTML = "10 giờ 00";
+            } else {
+                document.getElementById('time_append').innerHTML = time; 
+            }
+            if (name === '') {
+                alert("Bạn chưa nhập tên")
+            } else {
+                document.getElementById('name_append').innerText = name;
+                let txt = toSlug(name);
+                domtoimage.toJpeg(document.getElementById('my-node'), { quality: 0.95 })
+                    .then(function (dataUrl) {
+                        var link = document.createElement('a');
+                        link.download = 'thiep_' + txt + '.jpeg';
+                        link.href = dataUrl;
+                        link.click();
+                        document.getElementById('name_append').innerText = "";
+                        document.getElementById('time_append').innerHTML = ""; 
+                    });
+            }
+
+        });
+
+        // document.getElementById('btn-download').addEventListener("click", function () {
+        //     domtoimage.toJpeg(document.getElementById('my-node'), { quality: 0.95 })
+        //         .then(function (dataUrl) {
+        //             var link = document.createElement('a');
+        //             link.download = 'my-image-name.jpeg';
+        //             link.href = dataUrl;
+        //             link.click();
+        //         });
+        // });
+
+    </script>
+</body>
+
+</html>
