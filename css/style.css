@@ -44,6 +44,12 @@ html {
   width: 100%;
   text-align: center;
 }
+.box_left .left-img {
+  width: 80%;
+}
+.box_left .left-img.left-img-2 {
+  width: 50%;
+}
 .box_left .p1 {
   text-transform: uppercase;
   font-size: 24px;
@@ -53,7 +59,7 @@ html {
 .box_left .h31 {
   font-family: "HP001_Kieu2_5H";
   font-size: 36px;
-  color: #9d7d68;
+  color: #b57b63;
   padding: 0;
 }
 .box_left .p11 {
@@ -99,7 +105,7 @@ html {
 
 .box_right {
   position: absolute;
-  top: 220px;
+  top: 160px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -118,21 +124,34 @@ html {
   letter-spacing: 1.4px;
   color: #b57b63;
 }
+.box_right .bird {
+  width: 100px;
+  margin: 0 auto 20px;
+}
+.box_right .p_img {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.box_right .p_img img {
+  width: 120px;
+}
 .box_right .p1 {
   text-transform: uppercase;
   font-size: 24px;
-  color: #b57b63;
-  margin-bottom: 30px;
-  font-weight: 600;
+  color: #C09F24;
+  margin-bottom: 8px;
 }
 .box_right .p4 {
-  color: #b57b63;
-  font-size: 14px;
+  color: #C09F24;
+  font-size: 16px;
   text-transform: uppercase;
   line-height: 22px;
   padding-top: 4px;
-  font-family: "Times New Roman", Times, serif;
   letter-spacing: 1.2px;
+  margin-bottom: 8px;
+}
+.box_right .p4 strong {
+  font-size: 17px;
 }
 .box_right .p5 {
   color: #b57b63;
@@ -141,62 +160,65 @@ html {
   font-family: "Times New Roman", Times, serif;
 }
 .box_right .p6 {
-  color: #b57b63;
-  font-size: 14px;
+  color: #C09F24;
+  font-size: 15px;
   text-transform: uppercase;
   line-height: 22px;
-  padding-top: 30px;
+  padding-top: 16px;
   font-weight: bold;
+  margin-bottom: 2px;
 }
 .box_right .p7 {
-  color: #b57b63;
-  font-size: 13px;
+  color: #C09F24;
+  font-size: 14px;
   margin-bottom: 12px;
   letter-spacing: 1px;
 }
 .box_right .p8 {
   text-transform: uppercase;
-  color: #9d7d68;
-  padding: 0 0 4px;
+  color: #C09F24;
+  padding: 0 0 8px;
   font-weight: bold;
 }
 .box_right .p9 {
   color: #b57b63;
-  font-size: 14px;
+  font-size: 15px;
   text-transform: uppercase;
   line-height: 22px;
 }
 .box_right hr {
   width: 100px;
-  background-color: #9d7d68;
+  background-color: #C09F24;
   margin: 0 auto;
   height: 0.5px;
   border: none;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 .box_right .p10 {
   font-size: 14px;
   font-style: italic;
-  padding-top: 4px;
+  padding-top: 6px;
   margin-bottom: 40px;
+  color: #C09F24;
 }
 .box_right .b1 {
   text-align: right;
   padding-right: 70px;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+  color: #C09F24;
 }
 .box_right .b1:last-child {
   margin-bottom: 0;
 }
 .box_right .b1 p {
-  margin-bottom: 4px;
-  font-size: 14px;
+  margin-bottom: 6px;
+  font-size: 13px;
 }
 .box_right .b1 p:not(.box_right .b1 p:first-child) {
   text-transform: uppercase;
 }
 .box_right .b1 p:first-child {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 8px;
 }
